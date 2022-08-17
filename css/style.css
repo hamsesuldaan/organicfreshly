@@ -1,0 +1,148 @@
+:root {
+  --color-primary: #c33c54;
+  --color-secondary: #49b65f;
+  --color-calutred: #f6f9ff;
+  
+  --color-newBlack: #0b0d17;
+
+ 
+  /* --border-radius: */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+/* .upper_section {
+  background: url(../images/background.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 0 10rem;
+
+  height: 80vh;
+} */
+.upper_section {
+  background: url(../images/aniga  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Right-Left, Top-Bottom */
+  background-position: 0 -10rem;
+
+  height: 100vh;
+}
+
+
+.brand_logo {
+  width: 35rem;
+  height: 15rem;
+  margin-left: -11rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 35rem;
+}
+
+.navigation_list {
+  display: flex;
+  flex-direction: row;
+
+  list-style-type: none;
+  background-color:white;
+  border-radius: 30px;
+  box-shadow: 0px 0.5px 5px 1px;
+
+
+}
+
+.navigation_item {
+  margin: 0 2rem;
+}
+
+.navigation_item > a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.navigation_item > a:hover {
+
+  color: #c33c54;
+  
+ 
+
+ 
+}
+
+#active{
+
+
+color: #000000;
+border-bottom: 2px solid black;
+
+
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 10rem;
+
+  /* background-color: #c33c54; */
+  /* border: 3px solid green; */
+
+
+}
+
+.her_img{
+  width: 140rem;
+  height: 100rem;
+  z-index:0;
+}
+
+
+
+
+
+
+
+
+.font{
+
+  font-size: 80px;
+  line-height: 120px;
+  font-weight: lighter;
+  color: var(--color-secondary);
+  margin-bottom: 20rem;
+
+}
+.footer{
+  /* height: 6rem; */
+color: var(--color-calutred);
+  background-color: var(--color-secondary);
+  text-align: center;
+  z-index: 50;
+  margin-top: 17rem;
+  height: 9rem;
+ 
+}
+
